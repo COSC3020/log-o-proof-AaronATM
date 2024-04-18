@@ -12,3 +12,15 @@ page](https://docs.github.com/en/get-started/writing-on-github/working-with-adva
 might help with the notation for mathematical expressions.
 
 $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$
+
+Proof:
+
+Let $c$ be any positive integer, $a$ be any arbitrary constant, $n_0$ be any integer, $x(n) = \log_{a} n$, and $g(n) = log(n)$.
+
+By the change of base property of logarithms $x(n) = \frac{log(n)}{log(a)}$.
+
+This means that for all $n \geq n_0$, $0 \leq x(n) \leq \frac{c}{log(a)}g(n)$.
+
+By the constant absorption property of big O notation,  $x(n) \in O(g(n))$. 
+
+Thus $O(\log_{a} n)$ is the same as $O(\log_{b} n)$ for any arbitrary constants a and b.
