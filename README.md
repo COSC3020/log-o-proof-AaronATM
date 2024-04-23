@@ -25,4 +25,4 @@ By the constant absorption property of big O notation,  $x(n) \in O(log(n))$ and
 
 Due to the fact that big O describes growth rates and both $x(n)$, $g(n)$ are in $O(log(n))$: $x(n) \in O(g(n))$ and $g(n) \in O(x(n))$
 
-Thus, O(\log_{2} n) is the same as O(\log_{5} n).
+Thus, $O(\log_{2} n)$ is the same as $O(\log_{5} n)$.
