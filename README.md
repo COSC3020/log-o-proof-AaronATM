@@ -15,7 +15,7 @@ $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0
 
 Proof:
 
-Let $c$ be any positive integer, $a$ be any arbitrary constant, $n_0$ be any integer, $x(n) = \log_{a} n$, and $g(n) = log(n)$.
+Let $c$ be any positive integer, $a$ be any arbitrary constant, $n_0$ be any integer, $x(n)$ be a function such that $x(n) = \log_{a} n$, and $g(n)$ be a function such that $g(n) = log(n)$.
 
 By the change of base property of logarithms $x(n) = \frac{log(n)}{log(a)}$.
 
