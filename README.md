@@ -17,7 +17,7 @@ Proof:
 
 Let $c$ be any positive integer, $a$, $b$ be any arbitrary constants, $n_0$ be any integer, $x(n)$ be a function such that $x(n) = \log_{a} n$, and $g(n)$ be a function such that $g(n) = \log_{b} n$.
 
-By the change of base property of logarithms $x(n) = \frac{log(n)}{log(a)}$ and $g(n) = \frac{log(n)}{log(b)}.
+By the change of base property of logarithms $x(n) = \frac{log(n)}{log(a)}$ and $g(n) = \frac{log(n)}{log(b)}$.
 
 This means that $\forall n \geq n_0$, $0 \leq x(n) \leq \frac{c}{log(a)}log(n)$ and $\forall n \geq n_0$, $0 \leq g(n) \leq \frac{c}{log(b)}log(n)$.
 
