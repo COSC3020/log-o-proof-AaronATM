@@ -23,6 +23,6 @@ This means that $\forall n \geq n_0$, $0 \leq x(n) \leq \frac{c}{log(a)}log(n)$ 
 
 By the constant absorption property of big O notation, $x(n) \in O(log(n))$, and $g(n) \in O(log(n))$. 
 
-Due to the fact that big O describes function growth rate, $O(\log_{a} n)$ is the same as $O(\log_{b} n)$ for any arbitrary constants a and b.
+Due to the fact that big O describes function growth rate and they are both an element of $O(log(n))$, $O(\log_{a} n)$ is the same as $O(\log_{b} n)$ for any arbitrary constants a and b.
 
 Thus, $O(\log_{2} n)$ is the same as $O(\log_{5} n)$.
