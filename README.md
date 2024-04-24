@@ -15,14 +15,14 @@ $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0
 
 Proof:
 
-Let $c$ be any positive integer, $a$ be any arbitrary constant, $n_0$ be any integer, $x(n)$ be a function such that $x(n) = \log_{2} n$, and $g(n)$ be a function such that $g(n) = log_{5} n$.
+Let $c$ be any positive integer, $a$, $b$ be any arbitrary constants, $n_0$ be any integer, $x(n)$ be a function such that $x(n) = \log_{a} n$, and $g(n)$ be a function such that $g(n) = \log_{b} n$.
 
-By the change of base property of logarithms, $x(n) = \frac{log(n)}{log(2)}$ and $g(n) = \frac{log(n)}{log(5)}$.
+By the change of base property of logarithms $x(n) = \frac{log(n)}{log(a)}$ and $g(n) = \frac{log(n)}{log(b)}.
 
-This means that for all $n \geq n_0$, $0 \leq x(n) \leq \frac{c}{log(2)}log(n)$ and $0 \leq g(n) \leq \frac{c}{log(5)}log(n)$.
+This means that $\forall n \geq n_0$, $0 \leq x(n) \leq \frac{c}{log(a)}log(n)$ and $\forall n \geq n_0$, $0 \leq g(n) \leq \frac{c}{log(b)}log(n)$.
 
-By the constant absorption property of big O notation,  $x(n) \in O(log(n))$ and $g(n) \in O(log(n)).
+By the constant absorption property of big O notation, $x(n) \in O(log(n))$, and $g(n) \in O(log(n))$. 
 
-Due to the fact that big O describes growth rates and both $x(n)$, $g(n)$ are in $O(log(n))$: $x(n) \in O(g(n))$ and $g(n) \in O(x(n))$
+Due to the fact that big O describes function growth rate, $O(\log_{a} n)$ is the same as $O(\log_{b} n)$ for any arbitrary constants a and b.
 
-Thus, $O(\log_{2} n)$ is the same as $O(\log_{5} n)$.
+Thus, $O(\log_{2} n)$ is the same as$O(\log_{5} n)$.
