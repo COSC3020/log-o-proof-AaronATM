@@ -24,5 +24,3 @@ This means that $\forall n \geq n_0$, $0 \leq x(n) \leq \frac{1}{log(2)}log(n)$ 
 By the definition of big O notation, $x(n) \in O(log(n))$, and $g(n) \in O(log(n))$.
 
 Due to the fact that big O describes function growth rate and they are both an element of $O(log(n))$, $O(\log_{2} n)$ is the same as $O(\log_{5} n)$.
-
-Thus, $O(\log_{2} n)$ is the same as $O(\log_{5} n)$.
